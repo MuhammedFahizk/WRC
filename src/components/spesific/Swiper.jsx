@@ -1,11 +1,11 @@
 import { useEffect, useState, useMemo } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
-import { Div } from "../common";
+import { Div } from "../common/Index";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { NewsCard } from "../spesific";
+import { NewsCard } from "../spesific/Index";
 
 const SwiperSection = ({ title, fetchData, slidesPerView = 4 }) => {
   const [items, setItems] = useState([]);

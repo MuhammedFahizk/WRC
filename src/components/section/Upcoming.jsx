@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import { Div } from "../Index";
 import { getUpcoming } from "../../services/GetApi";
 import timeLeft from "../../utils/TimeLeft";

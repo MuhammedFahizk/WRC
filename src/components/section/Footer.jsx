@@ -1,5 +1,4 @@
-import React from 'react'
-import { Div } from '../common'
+import { Div } from '../common/Index'
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 const Footer = () => {
