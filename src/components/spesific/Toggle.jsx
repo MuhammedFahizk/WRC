@@ -24,7 +24,7 @@ const Toggle = () => {
   return (
     <motion.button
       onClick={toggleTheme}
-      className="mt-4 p-2 w-16 h-8 flex items-center bg-gray-800 dark:bg-white rounded-full relative"
+      className=" p-2 w-16 h-8 flex cursor-pointer items-center bg-gray-800 dark:bg-white rounded-full relative"
       initial={{ scale: 0.9 }}
       animate={{ scale: 1 }}
       transition={{ duration: 0.3 }}

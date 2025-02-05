@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { motion } from 'framer-motion';
 
 const Div = ({ className, style, animateProps, onClick, children }) => {
-  // Default animation settings (bottom to top)
   const defaultAnimation = {
     initial: { opacity: 0, y: 50 },
     animate: { opacity: 1, y: 0 },
